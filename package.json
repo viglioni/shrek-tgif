@@ -1,0 +1,37 @@
+{
+  "name": "dir",
+  "version": "0.1.0",
+  "licence": "GPL-3.0",
+  "scripts": {
+    "start": "ts-node ./src/main.ts",
+    "file": "ts-node"
+  },
+  "lint-staged": {
+    "*": [
+      "eslint --fix --quiet",
+      "prettier --write --loglevel error"
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.0",
+    "@types/ramda": "^0.29.3",
+    "@typescript-eslint/eslint-plugin": "^6.3.0",
+    "@typescript-eslint/parser": "^6.3.0",
+    "eslint": "^8.47.0",
+    "eslint-plugin-immutable": "^1.0.0",
+    "eslint-plugin-unused-imports": "^3.0.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.0",
+    "prettier": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "fp-ts": "^2.16.1",
+    "fp-ts-contrib": "^0.1.29",
+    "io-ts": "^2.2.20",
+    "ramda": "^0.29.0"
+  }
+}
