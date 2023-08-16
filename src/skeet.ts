@@ -17,6 +17,7 @@ const requestBody = (did: string) => ({
   record: {
     text: 'Graças a deus é sexta-feira, hein!',
     createdAt: new Date().toISOString(),
+    langs: ['pt-BR'],
     embed: {
       $type: 'app.bsky.embed.images',
       images: [
