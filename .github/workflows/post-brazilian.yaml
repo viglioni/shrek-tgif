@@ -1,7 +1,7 @@
 name: 'Scheduled post in Brazilian'
 on:
   schedule:
-    - cron: '53 19 * * */3'
+    - cron: '57 19 * * WED'
 jobs:
   post-shrek:
     runs-on: ubuntu-latest
