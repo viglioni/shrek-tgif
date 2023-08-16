@@ -1,0 +1,12 @@
+name: 'Scheduled post in Brazilian'
+on:
+  [push]
+  # schedule:
+  #   - cron: "0 */3 * * *"
+jobs:
+  post-shrek:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: usafder/setup-node-with-cache@v1.0.0
+      - name: 'Post BR'
+        run: npm run start
