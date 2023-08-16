@@ -1,7 +1,6 @@
 import * as E from 'fp-ts/Either'
 import * as IO from 'fp-ts/IO'
 import 'dotenv/config'
-import { Do } from 'fp-ts-contrib'
 import { skeet } from './skeet'
 import { ErrorMsg } from './decoders'
 
