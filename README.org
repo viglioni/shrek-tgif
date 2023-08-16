@@ -1,0 +1,7 @@
+* Shrek - Thank God Its Friday
+
+Bot to post the picture of shrek saying "thank god it's friday".
+
+
+Supported langs:
+- :flag-br:
