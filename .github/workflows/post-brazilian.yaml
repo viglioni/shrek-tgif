@@ -1,14 +1,14 @@
-name: 'Scheduled post in Brazilian'
+name: "Scheduled post in Brazilian"
 on:
   schedule:
-    - cron: '3 20 * * 3'
+    - cron: "4 20 * * 3"
 jobs:
   post-shrek:
     runs-on: ubuntu-latest
     steps:
       - uses: usafder/setup-node-with-cache@v1.0.0
-      - name: 'Creating .env'
+      - name: "Creating .env"
         run: |
           echo "${{ secrets.ENV_FILE }}" > .env
-      - name: 'Post BR'
+      - name: "Post BR"
         run: npm run start
